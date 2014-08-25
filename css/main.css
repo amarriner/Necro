@@ -1,0 +1,17 @@
+#animated {
+    position: relative;
+    height: 400px;
+    width: 400px;
+}
+            
+#debug {
+    border: 2px solid #aaa;
+    background-color: #dedede;
+    padding: 2px;
+}
+        
+.sprite {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
