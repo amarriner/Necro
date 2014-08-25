@@ -4,36 +4,6 @@ var SPRITES = Array();
     'use strict';
 }());
 
-var images = {
-    "skeleton": {
-        "name": "Skeleton",
-        "image": "skeleton.png",
-        "height": 50,
-        "width": 192,
-        "frame_height": 25,
-        "frame_width": 24,
-        "loop": false
-    },
-    "slime_green": {
-        "name": "Green Slime",
-        "image": "slime_green.png",
-        "height": 52,
-        "width": 104,
-        "frame_height": 26,
-        "frame_width": 26,
-        "loop": true
-    },
-    "bat": {
-        "name": "Bat",
-        "image": "bat.png",
-        "height": 48,
-        "width": 96,
-        "frame_height": 24,
-        "frame_width": 24,
-        "loop": true
-    }
-};
-
 function Sprite(i, x, y) {
     'use strict';
     

@@ -37,6 +37,19 @@ form {
     padding: 2px;
 }
         
+#header {
+    border: 2px solid #449;
+    background-color: #66b;
+    color: white;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+#header a {
+    color: #99c;
+    font-size: 80%;
+}
+
 .button {
     border: 2px solid #393;
     background-color: #8e8;
