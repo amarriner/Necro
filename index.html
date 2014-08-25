@@ -3,6 +3,9 @@
     <head>
         <title>Crypt of the Necrodancer</title>
         <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="js/jquery-ui-1.11.1/jquery-ui.js"></script>
+        <script src="js/jquery-base64-master/jquery.base64.min.js"></script>
+        <script src="https://apis.google.com/js/client.js?onload=load"></script>
         <script src="js/necro.js"></script>
         
         <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -11,6 +14,15 @@
     <body>
         <div id="debug">
             <i>DEBUG</i>
+        </div>
+        
+        <div id="controls">
+            <form id="add">
+                <select id="add_images"></select>
+                <input type="button" class="button" id="add_button" name="add_button" value="Add">
+                <input type="button" class="button" id="url_button" name="url_button" value="Get URL">
+                <span id="url"></span>
+            </form>
         </div>
 
         <div id="animated">
